@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100hv;
+}
+
+.heading {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 2rem;
+    font-style: normal;
+    margin-top: 1rem;
+}
+
+.container{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+    max-width: 1600px;
+}
+
+.omelette-img {
+    border-radius: 2rem;
+}
+
+.def {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 1rem;
+  color: #858480;
+}
+
+.prep {
+    background-color: #fff5fa;
+    margin-top: 1rem;
+    padding: 2rem 3rem;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 2rem;
+    line-height: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.prep h2{
+    color: #8c335a;
+}
+
+.prep li {
+    margin-top: 1rem;
+    color:  #858480;
+}
+
+.prep li::marker{
+    color: #8c335a;
+}
+
+.prep-list {
+    color: #514f46;
+    font-weight: 600;
+    margin-left: 1rem;
+}
+
+.ingred {
+    color: #858480;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    border-bottom: 0.016rem solid #858480;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+}
+
+.ingred h2 {
+    color: #500000;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-style: normal;
+    margin-top: 1rem;
+}
+
+.ingred li {
+    margin-top: 1rem;
+}
+
+.ingred-list {
+    margin-left: 1rem;
+}
+
+.ingred li::marker {
+    color: #500000;
+}
+
+.nut h2 {
+    color: #500000;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-style: normal;
+    margin-top: 1rem;
+}
+.nut table {
+    border-collapse: separate; 
+    border-spacing: 0 1.5rem; 
+    width: 100%;
+    color: #858480;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nut td {
+    padding: 10px;
+    border-bottom: 0.016rem solid #858480;
+}
+
+.nut tr td:last-child {
+    color: #500000;
+    font-weight: 600;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 1rem;
+}
+    
+.attribution a { 
+    color: #8c335a;
+}
