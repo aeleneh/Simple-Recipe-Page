@@ -6,6 +6,7 @@
 
 body {
     min-height: 100hv;
+    background-color: #F3E6D8;
 }
 
 .heading {
@@ -20,8 +21,10 @@ body {
     background-color: #fff;
     display: flex;
     flex-direction: column;
-    margin: 3rem;
-    max-width: 1600px;
+    margin: 5rem auto;
+    max-width: 900px;
+    border-radius: 2rem;
+    padding: 3rem;
 }
 
 .omelette-img {
