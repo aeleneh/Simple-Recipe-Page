@@ -175,7 +175,7 @@ body {
         width: 100%;
         height: auto;
     }
-    .heading, .def, .prep, .ingred, .nut h2, .nut table {
+    .heading, .def, .prep, .ingred, .nut{
         margin: 1.5rem 1rem;
     }
 }
