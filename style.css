@@ -173,6 +173,6 @@ body {
         height: auto;
     }
     .heading, .def, .prep, .ingred, .nut {
-        margin: 1rem;
+        margin: 1.5rem 1rem;
     }
 }
