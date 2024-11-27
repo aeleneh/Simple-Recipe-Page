@@ -21,14 +21,19 @@ body {
     background-color: #fff;
     display: flex;
     flex-direction: column;
+    align-content: flex-start;
+    justify-items: flex-start;
     margin: 5rem auto;
     max-width: 900px;
+    width: 90%;
     border-radius: 2rem;
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .omelette-img {
     border-radius: 2rem;
+    width: 100%;
+    max-height: auto;
 }
 
 .def {
@@ -38,6 +43,7 @@ body {
   font-style: normal;
   margin-top: 1rem;
   color: #858480;
+  text-align: justify;
 }
 
 .prep {
@@ -80,7 +86,7 @@ body {
     font-style: normal;
     margin-top: 1rem;
     line-height: 1.5rem;
-    border-bottom: 0.016rem solid #858480;
+    border-bottom: 1px solid #858480;
     padding-bottom: 1.5rem;
     padding-left: 1rem;
 }
@@ -127,7 +133,7 @@ body {
 
 .nut td {
     padding: 10px;
-    border-bottom: 0.016rem solid #858480;
+    border-bottom: 1px solid #858480;
 }
 
 .nut tr td:last-child {
@@ -136,7 +142,7 @@ body {
 }
 
 .attribution { 
-    font-size: 11px; 
+    font-size: 0.75rem; 
     text-align: center; 
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
@@ -147,4 +153,23 @@ body {
     
 .attribution a { 
     color: #8c335a;
+}
+
+@media (max-width: 480px) {
+    body{
+        background-color: #fff;
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        margin: 0 auto;
+        border-radius: 0px;
+        padding: 0;
+        width: 100%;
+    }
+    .omelette-img{
+        border-radius: 0;
+        width: 100%;
+        height: auto;
+    }
 }
