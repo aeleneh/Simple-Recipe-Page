@@ -173,6 +173,6 @@ body {
         height: auto;
     }
     .heading, .def, .prep, .ingred, .nut {
-        padding: 2rem;
+        padding: 0 1rem;
     }
 }
