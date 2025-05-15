@@ -6,10 +6,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Recipe page</title>
 </head>
@@ -22,11 +20,65 @@
       to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
       <section class="prep">
         <h2> Preparation time</h2>
-    <ul>
-    <li><span class="prep-list">Total:</span> 10 minutes</li>
-    <li><span class="prep-list">Preparation:</span> 5 minutes</li>
-    <li><span class="prep-list">Cooking:</span> 5 minutes</li>
-    </ul>
+        <ul class="recipe-time-list">
+          <!-- Total Time Icon -->
+          <li>
+            <div class="icon-container">
+              <svg viewBox="0 0 24 24" width="40" height="40">
+                <!-- Decorative background -->
+                <rect x="2" y="2" width="20" height="20" rx="4" fill="#6C5CE7"/>
+                <!-- Clock face -->
+                <circle cx="12" cy="12" r="7" fill="white"/>
+                <!-- Clock hands -->
+                <line x1="12" y1="12" x2="12" y2="7" stroke="#6C5CE7" stroke-width="2" stroke-linecap="round"/>
+                <line x1="12" y1="12" x2="16" y2="14" stroke="#6C5CE7" stroke-width="2" stroke-linecap="round"/>
+                <!-- Decorative dots -->
+                <circle cx="12" cy="5" r="0.7" fill="#6C5CE7"/>
+                <circle cx="19" cy="12" r="0.7" fill="#6C5CE7"/>
+                <circle cx="12" cy="19" r="0.7" fill="#6C5CE7"/>
+                <circle cx="5" cy="12" r="0.7" fill="#6C5CE7"/>
+              </svg>
+            </div>
+            <span class="time-text">10 minutes</span>
+          </li>
+          
+          <!-- Preparation Time Icon -->
+          <li>
+            <div class="icon-container">
+              <svg viewBox="0 0 24 24" width="40" height="40">
+                <!-- Decorative background -->
+                <rect x="2" y="2" width="20" height="20" rx="4" fill="#00B894"/>
+                <!-- Cutting board -->
+                <rect x="5" y="8" width="14" height="10" rx="1" fill="white"/>
+                <!-- Knife -->
+                <path d="M7,18 L13,6 L15,7 L9,18" fill="#00B894"/>
+                <!-- Vegetable -->
+                <circle cx="16" cy="12" r="2" fill="#FF7979"/>
+              </svg>
+            </div>
+            <span class="time-text">5 minutes</span>
+          </li>
+          
+          <!-- Cooking Time Icon -->
+          <li>
+            <div class="icon-container">
+              <svg viewBox="0 0 24 24" width="40" height="40">
+                <!-- Decorative background -->
+                <rect x="2" y="2" width="20" height="20" rx="4" fill="#FF7675"/>
+                <!-- Pot base -->
+                <path d="M6,12 L6,18 C6,18.5 6.5,19 7,19 L17,19 C17.5,19 18,18.5 18,18 L18,12" fill="white"/>
+                <!-- Pot top -->
+                <rect x="5" y="11" width="14" height="2" rx="1" fill="white"/>
+                <!-- Pot handles -->
+                <path d="M5,12 C4,12 3,11 3,10 C3,9 4,8 5,8" fill="none" stroke="white" stroke-width="1"/>
+                <path d="M19,12 C20,12 21,11 21,10 C21,9 20,8 19,8" fill="none" stroke="white" stroke-width="1"/>
+                <!-- Steam -->
+                <path d="M9,8 C9,6 10,5 11,5 C12,5 12,6 12,6 C12,4 13,3 14,3 C15,3 15,4 15,5 C15,6 14,6 14,8" fill="none" stroke="white" stroke-width="1" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <span class="time-text">5 minutes</span>
+          </li>
+        </ul>
       </section>
     <section class="ingred">
       <h2> Ingredients</h2>
